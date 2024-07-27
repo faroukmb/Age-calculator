@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+ <div class="container">
+  <div class="inputs">
+    <div id="l0">
+      <label id="lab"> Day</label>
+      <input type="text" placeholder="DD" id="days">
+      <p class="err" id="error3">must be a valid day</p>
+    </div>
+    <div id="l1">
+      <label id="lab1">MONTH </label>
+      <input type="text" placeholder=" MM" id="months">
+      <p class="err" id="error2">must be a valid month</p>
+    </div>
+    <div id="l2">
+      <label id="lab2"> YEAR</label>
+      <input type="text" placeholder=" YYYY" id="years">
+      <p class="err" id="error1">must be the past</p>
+    </div>
+    <div class="butt">
+      <button id="btn" onclick="ageCalculator()">
+        <img src="assets/images/icon-arrow.svg" alt="">
+      </button>
+       
+    
+       
+      
+    </div>
+   
+    
+  </div>
+  <div class="affi">
+    <em><p><span id="year">--</span>years</p></em>
+    <em><p><span id="month">--</span>months</p></em>
+    <em><p><span id="day">--</span>days</p></em>
+  </div>
+ </div>
+ 
+
+
+  
+ 
+
+  
+ 
+
+ 
+ <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    margin-top: 200px;
+    padding: 30px;
+    width: 450px;
+    border-radius: 7px 7px 50px 7px;
+    
+}
+.inputs{
+    border-bottom: 1px solid rgba(161, 157, 157, 0.386);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.inputs div{
+margin-right: 35px;
+}
+.inputs div label{
+    color: rgb(182, 182, 182);
+}
+
+.inputs div input{
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid rgb(238, 238, 238);
+    margin-bottom: 20px;
+    outline:0;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.inputs input:focus{
+    border: 2px solid rgb(194, 173, 253);
+}
+.butt button {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(134, 76, 255);
+    border-radius: 50% ;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    margin: 20px -25px ;
+    cursor: pointer;
+}
+.butt button:hover{
+    background-color: rgb(21, 21, 21);
+}
+.container .affi p{
+    font-size: 2.5em;
+    font-weight: 850;
+    
+}
+.container .affi p span{
+    color: rgb(132, 77, 255);
+    letter-spacing: 5px;
+}
+.err{
+    font-size: 0.5em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: rgb(255, 82, 92);
+}
+#error1{
+  display: none;
+}
+#error2{
+    display: none;
+  }
+#error3{
+    display: none;
+  }
+  
+  
